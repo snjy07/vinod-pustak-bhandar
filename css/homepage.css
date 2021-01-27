@@ -1,0 +1,192 @@
+/*****************************************************
+    Main Slider
+*****************************************************/
+
+.mainBanner .carousel-item {
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+}
+
+.mainBanner .carousel-item-inner {
+    color: #fff;
+}
+
+.mainBanner .carousel-item-inner h2 {
+    color: #fff;
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: 400;
+}
+
+.mainBanner .carousel-item-inner h2 span {
+    font-weight: 600;
+}
+
+.mainBanner .carousel-item-inner p {
+    font-size: 22px;
+}
+
+.mainBanner .carousel-item-inner img {
+    max-width: 280px;
+}
+
+.mainBanner .carousel-item-inner h3 {
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 22px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.mainBanner .carousel-indicators li {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #C5C5C5;
+    border: 1px solid #000000;
+    opacity: 1;
+}
+
+.mainBanner .carousel-indicators li.active {
+    background-color: #868686;
+}
+
+@media (max-width: 767px) {
+    .mainBanner .carousel-item {height: auto; text-align: center; padding-top: 40px;}
+    .mainBanner .carousel-item-inner h2 {font-size: 40px; line-height: 50px;}
+}
+
+/**************************************************
+    Shop By School
+**************************************************/
+
+.shopBySchool-carousel .owl-carousel .owl-item img {
+    max-width: 100px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.shopBySchool-block {
+    text-align: center;
+}
+
+.shopBySchool-block p {
+    margin-top: 10px;
+    color: #000;
+    line-height: 1.5;
+}
+
+.shopBySchool-carousel .owl-carousel .owl-nav .owl-prev,
+.shopBySchool-carousel .owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    top: 30%;
+    left: -40px;
+    background-color: transparent;
+    color: #444;
+    font-size: 50px;
+    transform: translateY(-50%);
+}
+
+.shopBySchool-carousel .owl-carousel .owl-nav .owl-next {
+    left: auto;
+    right: -40px;
+}
+
+/**************************************************
+    Shop By CLass
+**************************************************/
+
+
+.shopByClass-block {
+    display: block;
+    color: #000;
+    font-size: 13px;
+    text-align: center;
+}
+
+.shopByClass-block h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    margin: 0 auto 10px;
+    background: linear-gradient(180deg, #F09819 0%, #EDDE5D 100%);
+    border: 1px solid #F09B1C;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+/********************************************************
+    Shop by Categoty
+********************************************************/
+
+.shopByCategory .shopBySchool-carousel .owl-carousel .owl-item img {
+    height: auto;
+}
+
+/*******************************************************
+    Testimonials
+*******************************************************/
+
+.testimonial-block {
+    display: flex;
+}
+
+.testimonial-user {
+    width: 100px;
+    text-align: center;
+}
+
+.testimonial-user h6 {
+    margin: 5px 0;
+    color: #898989,
+}
+
+.testimonial-text {
+    flex: 1;
+    line-height: 1.5;
+    padding: 0 40px;
+}
+
+@media (max-width: 767px) {
+    .testimonial-text {padding: 0 15px 0 40px;}
+}
+
+@media (max-width: 575px) {
+    .testimonial-block {flex-direction: column; justify-content: center;}
+    .testimonial-user {width: 100%; margin-bottom: 20px;}
+    .testimonial-text {width: 100%; padding: 0; text-align: center;}
+}
+
+
+/*******************************************************
+    Today's Deal
+*******************************************************/
+
+.todaysDeal .shopBySchool-carousel .owl-carousel .owl-item img {
+    height: auto
+}
+
+.todaysDeal .themeHeading a {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.todaysDeal .themeHeading a i {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+
+/*******************************************************
+    Best Seller
+*******************************************************/
+
+.bestSeller-img {
+    background-position: center;
+    background-size: cover;
+}

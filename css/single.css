@@ -1,0 +1,223 @@
+.product-main-details {
+    color: #000;
+    font-size: 15px;
+}
+
+.product-overview h1 {
+    font-size: 35px;
+}
+
+.product-overview .offer-badge {
+    position: unset;
+}
+
+.product-writers p {
+    margin-bottom: 10px;
+    color: #009ABC;
+}
+
+.product-main-details .product-price {
+    font-size: 17px;
+    color: #777;
+    letter-spacing: 0;
+}
+
+.product-main-details .product-price .current-price {
+    font-size: 30px;
+    margin-right: 10px;
+    letter-spacing: -1px;
+}
+
+.product-main-details .product-rating {
+    font-size: 18px;
+    align-items: flex-end;
+}
+
+.product-main-details .product-rating a {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.product-main-details .text-success {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.delivery-details {
+    color: #777;
+    display: flex;
+    align-items: flex-end;
+}
+
+.delivery-details .delivery-date {
+    color: #0F8CFF;
+}
+
+.product-delivery-pincode {
+    padding-left: 10px;
+}
+
+.product-delivery-pincode form input {
+    font-weight: 600;
+    color: #0F8CFF;
+    width: 80px;
+    border: none;
+    padding: 0;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+.product-delivery-pincode form input.active {
+    border: 1px solid #999;
+}
+
+.product-delivery-pincode form input:disabled {
+    background-color: #fff;
+}
+
+.product-delivery-pincode form button {
+    background-color: #fff;
+    border: none;
+    color: #777;
+}
+
+.product-delivery-pincode form button:focus {
+    outline: none;
+}
+
+.delivery-features {
+    color: #777;
+    text-align: center;
+    font-size: 15px;
+}
+
+.delivery-features img {
+    max-width: 55px;
+}
+
+.product-details h5 {
+    color: #0F8CFF;
+    margin-bottom: 15px;
+}
+
+.product-details-specs {
+    height: 120px;
+    overflow: hidden;
+}
+
+.product-details ul {
+    columns: 3;
+    column-gap: 0;
+}
+
+.product-details ul li {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.more-product-details {
+    position: relative;
+    top: -50px;
+    padding: 20px;
+    background: linear-gradient(#ffffff99 10%, #fff 90%);
+    cursor: pointer;
+}
+
+.more-product-details i {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+}
+
+/********************************************************
+    Add to Cart
+********************************************************/
+
+.quantity-add-to-cart .site-btn {
+    position: relative;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    height: 43px;
+    transition: .4s ease-in-out;
+}
+
+.quantity-add-to-cart .cart-btn:hover {
+    background: #fff;
+    color:#888;
+}
+
+.quantity-add-to-cart .site-btn.add-to-cart {
+    background: #fff;
+    color: #888;
+}
+
+.quantity-add-to-cart .site-btn::after {
+    position: absolute;
+    content: '';
+    left: -3px;
+    top: -3px;
+    bottom: -3px;
+    right: -3px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    z-index: -1;
+    transition: .4s ease-in-out;
+}
+
+.quantity-add-to-cart .site-btn.add-to-cart:hover {
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    color: #fff;
+}
+
+.quantity-add-to-cart .cart-number-input {
+    height: 45px;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.quantity-add-to-cart .cart-number-input button {
+    width: 25%;
+}
+
+.quantity-add-to-cart .cart-number-input input[type="number"] {
+    height: 45px;
+    max-width: 50%;
+    font-size: 18px;
+}
+
+.cart-discount-coupons {
+    padding: 20px 20px 30px;
+    border: 2px solid #C6C6C6;
+    border-radius: 4px;
+}
+
+.discount-coupon {
+    display: flex ;
+}
+
+.discount-coupon h6 {
+    color: #555;
+    margin: 0;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.discount-coupon h6 img {
+    cursor: pointer;
+    position: relative;
+    top: -2px;
+}
+
+.discount-coupon span {
+    font-size: 13px;
+    color: #555;
+}
